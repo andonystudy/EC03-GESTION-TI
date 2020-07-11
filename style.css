@@ -1,0 +1,78 @@
+:root{
+    --primary: rgb(15, 26, 36);
+    --primary: rgb(9, 35, 59);
+    --rgb-one: 9;
+    --rgb-two: 35;
+    --rgb-three: 59;
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+body{
+    color: rgb(var(--rgb-one), var(--rgb-two), var(--rgb-three)) !important;
+}
+
+
+.bg-custom{
+    background-color: rgb(var(--rgb-one), var(--rgb-two), var(--rgb-three)) !important;
+}
+.bg-custom-80{
+    background-color: rgba(var(--rgb-one), var(--rgb-two), var(--rgb-three), .2) !important;
+}
+.color-custom{
+    color: rgb(var(--rgb-one), var(--rgb-two), var(--rgb-three)) !important;
+}
+
+
+.c-students{
+    background-color: rgba(var(--rgb-one), var(--rgb-two), var(--rgb-three), .2);
+    margin-bottom: 18px;
+    /* height: 62px; */
+    transition: all .3 ease-in-out;
+}
+.c-students header{
+    width: 100%;
+    background-color: rgba(var(--rgb-one), var(--rgb-two), var(--rgb-three), .3);
+    padding: 20px;
+    cursor: pointer;
+}
+.c-students header h5{
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase;    
+    letter-spacing: 1px;
+    color: rgb(var(--rgb-one), var(--rgb-two), var(--rgb-three));
+}
+.c-students .students{
+    padding: 20px 0;
+}
+.c-students .students ol{
+    margin: 0;
+}
+.c-students .students ol li span{
+    font-weight: bold;
+    color: rgba(var(--rgb-one), var(--rgb-two), var(--rgb-three), .9);
+}
+
+.hide{
+    display: none;
+}
+
+.navbar-brand{
+    font-size: 17px;
+    margin: 10px 0;
+}
+.card-header{
+    font-size: 16px;
+    font-weight: bold;
+}
+.c-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+img{
+    width: 50%;
+}
