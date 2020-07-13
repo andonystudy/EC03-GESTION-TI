@@ -71,6 +71,12 @@ document.addEventListener("DOMContentLoaded", () => {
   let rowtwo = document.getElementById("rowtwo");
   let rowtwoData = [
     {
+      header: "Gestión de Calidad",
+      imgSrc: "img/doc.svg",
+      uri: "resource/gestion_de_calidad.pdf",
+      description: "",
+    },
+    {
       header: "Organigrama del Proyecto",
       imgSrc: "img/image.svg",
       uri: "resource/organigrama.png",
@@ -111,7 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
       imgSrc: "img/doc.svg",
       uri: "resource/desempenio_de_trabajo.pdf",
       description: "",
-    },
+    }    
   ];
 
   initTwoRow();
