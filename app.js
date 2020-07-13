@@ -95,15 +95,15 @@ document.addEventListener("DOMContentLoaded", () => {
       description: "",
     },
     {
-      header: "Requisitos de recursos",
-      imgSrc: "img/doc.svg",
-      uri: "resource/requisitos_de_recursos.pdf",
-      description: "",
-    },
-    {
       header: "Estructura de desglose de recursos",
       imgSrc: "img/image.svg",
       uri: "resource/desglose_de_recursos.png",
+      description: "",
+    },
+    {
+      header: "Requisitos de recursos",
+      imgSrc: "img/doc.svg",
+      uri: "resource/requisitos_de_recursos.pdf",
       description: "",
     },
     {
