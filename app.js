@@ -33,12 +33,12 @@ document.addEventListener("DOMContentLoaded", () => {
       uri: "resource/rf_rnf.pdf",
       description: "Requerimiento Funcional y No Funcional",
     },
-    // {
-    //   header: "Cronograma",
-    //   imgSrc: "img/empty.svg",
-    //   uri: "resource/meme.jpg",
-    //   description: "Diagrama de Gantt",
-    // },
+    {
+      header: "Cronograma",
+      imgSrc: "img/empty.svg",
+      uri: "resource/cronograma.png",
+      description: "Diagrama de Gantt",
+    },
   ];
 
   initOneRow();
